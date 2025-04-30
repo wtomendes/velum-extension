@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New Tab</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&display=swap" rel="stylesheet">
+  <meta name="theme-color" content="#000000">
+  <script src="background-init.js"></script>
+</head>
+<body>
+  <div class="container">
+    <p id="hora"></p>
+    <h1 id="saudacao">Loading...</h1>
+
+    <div class="search-box">
+      <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" viewBox="0 0 24 24">
+        <path fill="#ccc" d="M21 20l-4.35-4.35q.675-.825 1.013-1.85Q18 12.775 18 11.5q0-3.1-2.2-5.3Q13.6 4 10.5 4q-3.1 0-5.3 2.2Q3 8.4 3 11.5q0 3.1 2.2 5.3Q7.4 19 10.5 19q1.275 0 2.3-.337 1.025-.338 1.85-1.013L20 21Zm-10.5-3q-2.3 0-3.9-1.6Q5 13.8 5 11.5t1.6-3.9q1.6-1.6 3.9-1.6t3.9 1.6q1.6 1.6 1.6 3.9t-1.6 3.9q-1.6 1.6-3.9 1.6Z"/>
+      </svg>
+      <input type="search" id="search-input" placeholder="Search..." aria-label="Campo de busca">
+      <button id="chatgpt-btn" class="icon-btn" aria-label="ChatGPT">
+        <img src="images/gpt.png" alt="ChatGPT" class="chatgpt-logo">
+      </button>
+    </div>
+
+    <div id="frase-do-dia" class="glass-quote">Loading...</div>
+  </div>
+
+  
+  <div id="open-panel-btn">
+    <i class="fas fa-cogs"></i>
+  </div>
+
+ 
+  <div id="side-panel" class="side-panel">
+    <button id="color-picker-btn" class="btn">
+      <i class="fas fa-paint-brush"></i> Change Color
+    </button>
+    <input type="color" id="color-picker" style="display: none;" />
+
+    <button id="reset-bg-btn" class="btn">
+      <i class="fas fa-image"></i> Restore Image
+    </button>
+
+    <button id="upload-bg-btn" class="btn">
+      <i class="fas fa-upload"></i> Load Image
+    </button>
+    <input type="file" id="bg-upload" style="display: none;" accept="image/*" />
+
+    <button id="close-panel-btn" class="btn">
+      <i class="fas fa-times"></i> Close
+    </button>
+  </div>
+
+  <div id="open-dashboard-btn">
+    <i class="fas fa-bars"></i>
+  </div>
+
+  
+  <div id="dashboard">
+    <div class="dashboard-header" style="display: flex; align-items: center; justify-content: center; gap: 16px;">
+      <button id="scroll-left-btn" class="scroll-btn"><i class="fas fa-chevron-left"></i></button>
+      <h2 class="dashboard-title">Games</h2>
+      <button id="scroll-right-btn" class="scroll-btn"><i class="fas fa-chevron-right"></i></button>
+    </div>
+    <div class="dashboard-container">
+      <div class="dashboard-row">
+        <div class="dashboard-img-container">
+          <img src="images/Cookie_Clicker_logo.png" alt="Cookie Clicker">
+        </div>
+        <div class="dashboard-img-container">
+          <img src="images/slitherio.png" alt="Game 2">
+        </div>
+        <div class="dashboard-img-container">
+          <img src="images/chess.png" alt="Game 3">
+        </div>
+        <div class="dashboard-img-container">
+          <img src="images/diepio.png" alt="Game 4">
+        </div>
+        <div class="dashboard-img-container">
+          <img src="images/ctr.png" alt="Game 5">
+        </div>
+      </div>
+    </div>
+    <!-- News Widget -->
+    <div id="news-widget"></div>
+    <div id="ucl-widget"></div>
+    <button id="close-dashboard-btn" class="dashboard-close-btn">
+      <i class="fas fa-times"></i>
+    </button>
+  </div>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+  <script src="dashboard.js"></script>
+  <script src="news.js"></script>
+  <script src="ucl.js"></script>
+</body>
+</html>

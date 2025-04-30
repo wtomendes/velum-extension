@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Velum",
+  "description": "Velum: Make Your Browser YOURS",
+  "version": "1.0",
+  "permissions": ["storage"],
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "images/velum48.png",
+      "128": "images/velum128.png",
+      "512": "images/velum512.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "48": "images/velum48.png",
+    "128": "images/velum128.png",
+    "512": "images/velum512.png"
+  }
+} 
