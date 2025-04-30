@@ -75,4 +75,10 @@ To contribute to the project:
 
 For support, feature requests, or bug reports, please open an issue in this repository.
 
+## Final Regards
+
+This project was an incredible learning journey. I dove deep into JavaScript, which was challenging at times but ultimately rewarding — especially when making the interactive dashboard work smoothly.
+Styling with CSS became my favorite part of the process: I discovered glassmorphism and hover effects, and honestly, I can't live without them anymore. They brought the aesthetic I had in mind to life, making the interface feel modern and elegant.
+Building Velum also taught me a lot about browser extension development, cross-browser compatibility, and how to create something both useful and beautiful from scratch
+
 ![Check it out!](readme-assets/Check%20it%20out!.gif) 
