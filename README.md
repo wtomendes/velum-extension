@@ -1,17 +1,24 @@
 # Velum Browser Extension
 
-Velum is a versatile browser extension available for Chrome, Edge, Firefox, and Opera browsers. It enhances your browsing experience with a customizable dashboard, news integration, and various useful features.
+Velum is a versatile browser extension available for Chrome, Edge, Firefox, and Opera browsers. It enhances your browsing experience with a customizable background, clean dashboard, news integration, and various useful features.
 
+<p align="center">
+    <img src="readme-assets/icon.png" />
+</p>
 ## Features
 
-- **Customizable Dashboard**: Personalize your browser's new tab page with a beautiful dashboard
+- **Customizable Features**: Personalize your browser's new tab page with "Load Image" feature that allows YOU to choose your own style
 - **News Integration**: Stay updated with the latest news directly from your browser
+- **Chat GPT**: Shortcut to your favorite AI :) 
 - **Game Integrations**: Quick access to popular games like:
   - Cookie Clicker
   - Chess
   - Diep.io
   - Slither.io
-- **UCL Widget**: Special integration with UCL functionality
+  
+  <img src="readme-assets/screenshot.png" />
+
+- **UCL Widget**: Special integration with UCL-results (my last project)
 - **Cross-Browser Support**: Available for:
   - Google Chrome
   - Microsoft Edge
@@ -64,15 +71,8 @@ To contribute to the project:
 4. Test the extension in your preferred browser
 5. Submit a pull request
 
-## License
-
-This project is licensed under the terms included in the LICENSE file.
-
 ## Support
 
 For support, feature requests, or bug reports, please open an issue in this repository.
-
-## Screenshots
-
 
 ![Check it out!](readme-assets/Check%20it%20out!.gif) 
