@@ -5,6 +5,7 @@ Velum is a versatile browser extension available for Chrome, Edge, Firefox, and 
 <p align="center">
     <img src="readme-assets/icon.png" />
 </p>
+
 ## Features
 
 - **Customizable Features**: Personalize your browser's new tab page with "Load Image" feature that allows YOU to choose your own style
